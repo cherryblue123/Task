@@ -1,0 +1,129 @@
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.left-header{
+	vertical-align: middle;
+	line-height: 60px;
+}
+
+.left-header span {
+    font-family: youyuan;
+    font-size: 35px;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+.pic{
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+
+.pic img{
+	width: 100%;
+	height: 600px;
+}
+
+.layui-nav{
+	background-color: white;
+}
+
+.layui-nav .layui-nav-item a,.layui-nav .layui-nav-item a:hover,
+.layui-nav .layui-this a{
+	color: #000000;
+}
+
+
+.pic-text{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.pic span:nth-of-type(1){
+    /*
+        文字阴影：
+        text-shadow: 水平位移 垂直位移  模糊程度  阴影颜色;
+    */
+    font: 600 90px "League-Gothic";
+    color: white;
+        text-shadow: 0 0 20px #0066CC, 
+		10px -10px 30px #33CCFF, 
+		20px -20px 40px #006699, 
+		-20px -60px 50px #3366CC, 
+		0px -80px 60px #336699;
+}
+.pic span:nth-of-type(2){
+	color: white;
+	font-size: 18px;;
+}
+
+.pic button{
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.center-2 {
+    width: 75%;
+    position: relative;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.left-center-2 {
+    position: relative;
+    top: 50px;
+    /* left: 150px; */
+	float: left;
+}
+
+.right-center-2 {
+    position: relative;
+    top: 50px;
+    /* right: 150px; */
+	float: right;
+}
+
+h4 {
+    font-weight: bolder;
+	font-size: 20px;
+}
+
+.layui-elem-quote {
+    width: 450px;
+	font-size: 15px;
+}
+
+.footer{
+	background-color: #276489;
+	width: 100%;
+	height: 200px;
+}
+
+.footer li{
+	color: #CCCCCC;
+}
+.content-1, .content-2, .content-3, .content-4 {
+    position: relative;
+    top: 50px;
+    float: left;
+    margin-left: 170px;
+}
+.footer h4 {
+    font-weight: bolder;
+	font-size: 20px;
+	color: #CCCCCC;
+	margin-bottom: 20px;
+}
